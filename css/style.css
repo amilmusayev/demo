@@ -1,0 +1,95 @@
+.container{
+    max-width: 1100px;
+    margin: auto;
+    background: red;
+}
+
+.logo{
+    width: 70px;
+}
+.logo img{
+    width: 100%;
+}
+
+#header{
+    background: blueviolet;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+menu{
+    display: flex;
+    gap: 20px;
+}
+menu .navlink{
+    background-color: black;
+    width: 90px;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#sec1{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxD0f0Whnol8Zkt_GU4ws9EgRqMc_3kt1q6w&s') center/cover;
+}
+.sec1-content{
+    text-align: center;
+}
+.navlink{
+    display: flex;
+}
+.drop{
+    display: none;
+    width: 120px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+}
+.down{ position: relative;}
+.down:hover .drop{
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+.drop li{
+    background-color: black;
+    padding: 15px 0;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.none{
+    display: none;
+}
+.down:hover .none{
+    display: block;
+}
+.down:hover .none{
+    display: none;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.bar{
+    display: none;
+}
+@media only screen and (max-width: 600px){
+    menu{
+        display: none;
+    }
+    .bar{
+        display:block;
+    }
+}
+

@@ -1,0 +1,126 @@
+:root{
+    --orange: #fd5f00;
+}
+
+
+
+.container{
+    max-width: 960px;
+    margin: auto;
+}
+.logo{
+        color: rgba(0, 0, 0, 0.9);
+        text-transform: uppercase;
+        flex: 2;
+    
+}
+.header-top{
+    padding: 20px 0px;
+}
+.top-left {
+    flex: 4;
+}
+
+.header-top,
+.top-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list i {
+    color: var(--orange);
+}
+.list{
+    display: flex;
+    gap: 25px;
+}
+
+.list > div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 1rem;
+    border: 1px solid var(--orange);
+    background: var(--orange);
+    font: normal 1rem/1.5 Arial;
+    color: #fff;
+    transition: all 0.6s;
+}
+.btn:hover {
+    border-color: var(--orange);
+    color: var(--orange);
+    background: transparent;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 13px;
+    background-color:  #0d1128;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.menu  li a{
+    color: #fff;
+}
+#sec1{
+    height: 100vh;
+    background: linear-gradient(rgba(218, 148, 18, 0.491),rgba(215, 156, 47, 0.543)), url(img/bg_2.jpg.webp) top/cover;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around; */
+}
+.content-sec1 {
+    padding: 170px;
+
+   
+   
+    
+}
+.content-sec1 h2{
+    color: #fff;
+    font-size: 36px;
+}
+.content-sec1 p{
+    color: #fff;
+    font-size: 18px;
+}
+.contact{
+    padding: 10px 1rem;
+    border: 4px solid var(--orange);
+    border-radius: 20px;
+    background: var(--orange);
+    font: normal 1rem/1.5 Arial;
+    color: #fff;
+    transition: all 0.6s;
+ 
+}
+#sec2{
+    display: flex;
+    height: 200px;
+    
+}
+.card{
+    background: var(--orange);
+    
+}
+.card2{
+    background: #0d1128;
+}
+.card{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+.card2{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+
+}

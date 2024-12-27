@@ -1,0 +1,457 @@
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #fff;
+}
+.loqo{
+    padding: 15px;
+}
+.icons{
+    font-size: 44px;
+    color: orange;
+}
+.text{
+    font-size: 18px;
+    color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.menu li a{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    
+}
+ menu.active{ color: orange;}
+
+ .sec1{
+    height: 100vh;
+    background: 
+    linear-gradient(to right,rgba(117, 116, 116, 0.548),rgba(255, 166, 0, 0.562),rgba(128, 128, 128, 0.623)),
+    url(img/hero.webp) top/cover;
+    width: 100%;
+    padding-top: 100px;
+    color: #fff;
+ }
+
+ 
+ .text h3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 70px;
+    font-size: 50px;
+    color: #fff;
+
+ }
+ .text p{ color: #fff;
+    margin-left: 35px;
+    
+    
+ }
+ .btn {
+    display: flex;
+    margin: 10px 50px;
+    padding: 10px;
+}
+.btn button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background: transparent;
+   
+    color: white;
+    margin-right: 6px;
+
+}
+.btn h5{
+    font-size: 20px;
+    padding: 15px;
+}
+ .sec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 18px;
+
+ }
+ .sec2 .text2 h3{
+    color: orange;
+ }
+ .sec2 .text2 h5{
+    padding: 10px;
+    color: black;
+    font-size: 15px;
+ }
+.sec2 .img img{
+    font-size: 50%;
+}
+.sec4{
+    display: flex;
+}
+
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-left: 100px;
+    padding: 10px;
+    flex-wrap: wrap;
+    margin-right: 100px;
+}
+.buttons a{
+    color: orange;
+    border: 20px;
+    border-color: white;
+
+}
+.card-one{
+    background: url('img/img_1.webp') center/cover;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+}
+.card-two{
+    background: url(img/img_2.webp) center/cover;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-left: 20px;
+}
+.card-three{
+    background: url(img/img_3.webp) center/cover;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-left: 20px;
+}
+.card-four{
+    background: url(img/img_4.webp) center/cover;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-left: 20px;
+}
+.card-five{
+    background: url(img/img_5.webp) center/cover;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-left: 20px;
+}
+.card-six{
+    background: url(img/img_6.webp) center/cover;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-left: 20px;
+
+}
+.card img{
+    width: 100%;
+}
+ .sec3 .text3{
+    text-align: center;
+   
+}
+.sec3 .text3 h3{
+    font-size: 18px;
+    color: orange;
+}
+.sec3 .text3 h5{
+    color: black;
+    font-size: 30px;
+}
+.sec5 .text5{
+    text-align: center;
+    padding: 10px;
+}
+.sec5 .text5 h2{
+    font-size: 18px;
+    color: orange;
+}
+.sec5 .text5 h4{
+    font-size: 36px;
+    color: black;
+}
+
+
+.staff1-img{
+   margin-left: 25px;
+    
+}
+article{
+    display: flex;
+    margin-left: 300px;
+     gap: 30px;
+    
+}
+.staff1 h3{
+    padding: 10px;
+
+}
+.staff1{
+    padding: 7px;
+    text-align: center;
+}
+.icon1{
+    text-align: center;
+    padding: 7px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: orange;
+}
+
+.staff2-img{
+    margin-left: 25px;
+}
+
+.staff2 h3{
+    padding: 10px;
+}
+
+
+.staff2{
+    padding: 7px;
+    text-align: center;
+}
+.icon2{
+    text-align: center;
+    padding: 7px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: orange;
+
+}
+
+
+.sec6{
+    text-align: center;
+
+}
+.sec6 .cards{
+    display: flex;
+    gap: 30px;
+    
+}
+
+.sec6 h5{
+    color: orange;
+    font-size: 18px;
+    padding: 7px;
+}
+.sec6 h3{
+    color: black;
+    font-size: 36px;
+    padding: 5px;
+}
+.card-test1{
+    background: orange;
+    height: 250px;
+    width: 400px;
+}
+.card-tes1 img{
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    margin-left: 10px;
+}
+.sec7 .text7{
+    text-align: center;
+    padding: 10px;
+}
+.sec7 .text7 h4{
+    color: orange;
+    font-size: 18px;
+}
+.sec7 .text7 h2{
+    color: black;
+    font-size: 36px;
+}
+
+.updates{
+    text-align: center;
+}
+.updates h5{color: orange;
+    font-size: 18px;
+    padding: 7px;
+
+}
+.updates p{
+    color: black;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    
+    
+    max-width: 32%;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .card h2 {
+    font-size: 1.5em;
+    margin: 15px 0 10px;
+  }
+  
+  .date {
+    color: #aaa;
+    font-size: 0.9em;
+    margin: 5px 0;
+  }
+  
+  .date .admin {
+    color: #d19161;
+    font-weight: bold;
+  }
+  
+  .card p {
+    color: #555;
+    line-height: 1.4;
+  }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .instagram, .quick-links, .newsletter {
+    background: #fff;
+    padding: 20px;
+    flex: 1;
+    max-width: 30%;
+  }
+  
+  .instagram h3, .quick-links h3, .newsletter h3 {
+    margin-bottom: 10px;
+  }
+  
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .image-gallery img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+  }
+  
+  .quick-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .quick-links a {
+    text-decoration: none;
+    color: #d19161;
+    display: block;
+    margin: 5px 0;
+  }
+  
+  .newsletter form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .newsletter input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .newsletter button {
+    background-color: #d19161;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .newsletter button:hover {
+    background-color: #b06c45;
+  }
+
+  /* .cards-end{
+    display: flex;
+    text-align: center;
+    align-items: end;
+    justify-content: center;
+    
+
+}
+.cardend-one{
+    height: 400px;
+    width: 300px;
+}
+
+.cardend-two{
+    height: 400px;
+    width: 300px;
+}
+.cardend-three{
+    height: 400px;
+    width: 300px;
+
+} */
